@@ -1,19 +1,23 @@
 {
-    "name": "navbar",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start"
-    },
-    "dependencies": {
-        "bootstrap": "^4.5.3",
-        "framer-motion": "^2.9.4",
-        "gsap": "^3.5.1",
-        "next": "10.0.2",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "reactstrap": "^8.7.1"
-    }
+  "name": "nextjs-mdb",
+  "version": "4.25.3",
+  "description": "Integration example for MDBReact and Next.js create-next-app",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Jakub Chmura",
+  "repository": "https://github.com/JakubChm/nextjs-mdbreact.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mdbreact": "^4.25.5",
+    "next": "^9.3.4",
+    "next-compose-plugins": "^2.2.0",
+    "next-fonts": "^1.0.3",
+    "next-images": "^1.4.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
