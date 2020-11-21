@@ -1,9 +1,11 @@
 import Carousel from '../components/Carousel';
 import ReactImage from '../assets/mdb-react-small.png';
+import VideoBg from '../components/VideoBg';
 
 const WelcomePage = () => (
   <>
-    <h3 className='text-center'>Orchard Beach </h3>
+    <VideoBg />
+    <h3 className='text-center'></h3>
     
     <Carousel />
   </>
