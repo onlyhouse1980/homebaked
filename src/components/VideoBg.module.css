@@ -1,5 +1,5 @@
 .fullscreenbg {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
@@ -9,7 +9,7 @@
 }
 
 .fullscreenbg__video {
-    position: fixed;
+    position: initial;
     top: 0;
     left: 0;
     height: 100vh;
@@ -26,6 +26,7 @@
 
 @media (max-aspect-ratio: 16/9) {
     .fullscreen-bg__video {
+        position: initial;
         width: 300%;
         left: -100%;
     }
