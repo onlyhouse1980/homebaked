@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    height: 100vh;
 }
 
 @media (min-aspect-ratio: 16/9) {
