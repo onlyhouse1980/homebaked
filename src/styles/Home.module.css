@@ -147,7 +147,15 @@
 .wContainer {
     margin-left: auto;
     margin-right: auto;
-    max-width: 479px;
+    max-width: 300px;
+}
+
+.divBlock {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+    overflow: scroll;
 }
 
 .w-container:before,
