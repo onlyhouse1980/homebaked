@@ -62,7 +62,7 @@ const Carousel = () => {
             <MDBView>
               <img
                 className='d-block w-100'
-                src='../../images/whale.png'
+                src='../../images/hvnSJi8k_4x.jpg'
                 alt='Fourth slide'
               />
             </MDBView>
