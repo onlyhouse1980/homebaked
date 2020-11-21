@@ -138,6 +138,14 @@
     background: rgba(255, 255, 255, 0.475);
     /* Green background with 30% opacity */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .container-4 {
@@ -147,7 +155,10 @@
 .wContainer {
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0 50% 0 50%;
     max-width: 300px;
+    align-items: center;
+    justify-content: center;
 }
 
 .divBlock {
