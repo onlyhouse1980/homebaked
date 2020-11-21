@@ -44,7 +44,7 @@ class Layout extends React.Component {
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href='/'>
+                <Link href='/about'>
                   <a className='nav-link'>About</a>
                 </Link>
               </MDBNavItem>

@@ -13,7 +13,7 @@ const Carousel = () => {
     <MDBContainer className='mt-5'>
       <MDBCarousel
         activeItem={1}
-        length={3}
+        length={4}
         showControls={true}
         showIndicators={true}
         className='z-depth-1'
@@ -51,6 +51,19 @@ const Carousel = () => {
                 className='d-block w-100'
                 src='../../images/img_0.jpg'
                 alt='Third slide'
+              />
+            </MDBView>
+            <MDBCarouselCaption>
+              <h1 className='h1-responsive'>Orchard Beach</h1>
+              <h3>Community Group</h3>
+            </MDBCarouselCaption>
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId='4'>
+            <MDBView>
+              <img
+                className='d-block w-100'
+                src='../../images/whale.png'
+                alt='Fourth slide'
               />
             </MDBView>
             <MDBCarouselCaption>
