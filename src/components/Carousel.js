@@ -28,8 +28,8 @@ const Carousel = () => {
               />
             </MDBView>
             <MDBCarouselCaption>
-              <h1 className='h1-responsive'>Orchard Beach</h1>
-              <h3>Community Group</h3>
+              <h1 className='h1-responsive'></h1>
+              <h3></h3>
             </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId='2'>
@@ -41,8 +41,8 @@ const Carousel = () => {
               />
             </MDBView>
             <MDBCarouselCaption>
-              <h1 className='h1-responsive'>Orchard Beach</h1>
-              <h3>Community Group</h3>
+              <h1 className='h1-responsive'></h1>
+              <h3></h3>
             </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId='3'>
@@ -54,8 +54,8 @@ const Carousel = () => {
               />
             </MDBView>
             <MDBCarouselCaption>
-              <h1 className='h1-responsive'>Orchard Beach</h1>
-              <h3>Community Group</h3>
+              <h3 className='h3-responsive'></h3>
+              <h5></h5>
             </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId='4'>
@@ -67,8 +67,8 @@ const Carousel = () => {
               />
             </MDBView>
             <MDBCarouselCaption>
-              <h1 className='h1-responsive'>Orchard Beach</h1>
-              <h3>Community Group</h3>
+              <h3 className='h3-responsive'></h3>
+              <h5></h5>
             </MDBCarouselCaption>
           </MDBCarouselItem>
         </MDBCarouselInner>

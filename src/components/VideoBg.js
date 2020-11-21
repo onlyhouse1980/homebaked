@@ -4,7 +4,7 @@ const VideoBg = () => {
   return (
 
 <div className={styles.fullscreenbg}>
-    <video loop muted autoPlay className={styles.fullscreenbg__video}>
+    <video autoPlay loop muted playsInline className={styles.fullscreenbg__video}>
         
         <source src="../../videos/water.mp4" type="video/mp4" />
         
