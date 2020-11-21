@@ -83,7 +83,7 @@ class Layout extends React.Component {
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href='/'>
+                <Link href='/executive'>
                   <a className='nav-link'>Executive Board</a>
                 </Link>
               </MDBNavItem>

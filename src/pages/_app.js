@@ -4,6 +4,7 @@ import '@fortawesome/fontawesome-free/js/all';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import Layout from '../components/Layout';
+import styles from '../styles/globals.css';
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
