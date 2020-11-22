@@ -1,17 +1,13 @@
-import React from 'react';
-import { MDBIcon, MDBContainer, MDBFooter } from 'mdbreact';
+import React from 'react'
+import styles from '../styles/WelcomePage.module.css'
 
 const FooterPage = () => {
   return (
-    <MDBFooter
-      color='blue'
-      className='font-small py-3 mt-4 footer-copyright text-center'
-    >
-      <MDBContainer fluid>
-        &copy; {new Date().getFullYear()} Powered by:
-        <a href='http://anewshade.de'> aNewShade.de</a>
-      </MDBContainer>
-    </MDBFooter>
+      <div className={styles.footer}>
+        &copy; {new Date().getFullYear()} Powered By:
+        <a href='http://anewshade.de'>
+        <img src="/images/anewshade.png" alt="aNewShade Logo" className={styles.logo} /></a>
+      </div>
   );
 };
 
