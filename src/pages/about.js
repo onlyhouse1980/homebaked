@@ -1,6 +1,6 @@
 import ReactImage from '../assets/mdb-react-small.png';
 import VideoBg1 from '../components/VideoBg1';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/About.module.css'
 
 const About = () => (
   <>

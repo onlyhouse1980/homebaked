@@ -28,21 +28,24 @@ class Layout extends React.Component {
   render() {
     return (
       <>
-        <MDBNavbar color='indigo' dark expand='xl'>
+        <MDBNavbar color='indigo' dark expand='md'>
           <MDBNavbarBrand>
             <a href="#"><img src="/images/obcglogo-p-500.png" width={60} height={60} /></a>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id='navbarCollapse3' isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left>
+              
+            </MDBNavbarNav>
+            <MDBNavbarNav right>
               <MDBNavItem>
                 <Link href='/'>
-                  <a onClick={this.toggleCollapse} >Home</a>
+                  <a className='nav-link'>Home</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/about'>
-                  <a onClick={this.toggleCollapse}>About</a>
+                  <a className='nav-link'>About</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
@@ -71,31 +74,29 @@ class Layout extends React.Component {
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/register'>
-                  <a onClick={this.toggleCollapse}>Check Usage</a>
+                  <a className='nav-link'>Check Usage</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/Efficiency'>
-                  <a onClick={this.toggleCollapse}>Use Efficiency</a>
+                  <a className='nav-link'>Use Efficiency</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/executive'>
-                  <a onClick={this.toggleCollapse}>Executive Board</a>
+                  <a className='nav-link'>Executive Board</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/'>
-                  <a onClick={this.toggleCollapse}>System Plan</a>
+                  <a className='nav-link'>System Plan</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/'>
-                  <a onClick={this.toggleCollapse}>Contact</a>
+                  <a className='nav-link'>Contact</a>
                 </Link>
               </MDBNavItem>
-            </MDBNavbarNav>
-            <MDBNavbarNav right>
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBNavbar>
