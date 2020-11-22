@@ -1,10 +1,10 @@
 import ReactImage from '../assets/mdb-react-small.png';
-import VideoBg1 from '../components/VideoBg1';
+import VideoBg2 from '../components/VideoBg2';
 import styles from '../styles/executive.module.css';
 
 const Executive = () => (
   <>
-    <VideoBg1 /> 
+    <VideoBg2 /> 
     <div className={styles.textbox}>
     <h2 className='text-center'><b>OBCG</b><br /><b>Executive Board</b></h2>
     <p></p>
