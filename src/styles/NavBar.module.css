@@ -1,3 +1,14 @@
 .navbar {
     position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul ul {
+    position: absolute;
+    width: 100%;
 }

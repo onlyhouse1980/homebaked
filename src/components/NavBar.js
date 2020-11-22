@@ -55,7 +55,7 @@ class Layout extends React.Component {
                   </MDBDropdownToggle>
                   <MDBDropdownMenu>
                     <MDBDropdownItem>
-                      <Link href='/'>
+                      <Link href='/articles'>
                         <a>Articles of Incorporation</a>
                       </Link>
                     </MDBDropdownItem>
