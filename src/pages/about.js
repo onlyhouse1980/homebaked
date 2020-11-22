@@ -2,7 +2,7 @@ import ReactImage from '../assets/mdb-react-small.png';
 import VideoBg1 from '../components/VideoBg1';
 import styles from '../styles/Home.module.css';
 
-const AboutPage = () => (
+const About = () => (
   <>
     <VideoBg1 /> 
     <div className={styles.textbox}>
@@ -12,4 +12,4 @@ const AboutPage = () => (
   </>
 );
 
-export default AboutPage;
+export default About;

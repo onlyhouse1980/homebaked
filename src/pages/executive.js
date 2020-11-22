@@ -2,7 +2,7 @@ import ReactImage from '../assets/mdb-react-small.png';
 import VideoBg1 from '../components/VideoBg1';
 import styles from '../styles/Home.module.css';
 
-const ExecutivePage = () => (
+const Executive = () => (
   <>
     <VideoBg1 /> 
     <div className={styles.textbox}>
@@ -23,4 +23,4 @@ const ExecutivePage = () => (
   </>
 );
 
-export default ExecutivePage;
+export default Executive;
