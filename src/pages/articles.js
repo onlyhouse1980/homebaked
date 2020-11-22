@@ -3,7 +3,7 @@ import styles from '../styles/Articles.module.css'
 
 const Articles = () => (
   <>
-    <div className={styles.bgroundwrap}>
+    <container className={styles.bgcontainer}>
     <div className={styles.content}>
     <h2 className='text-center'>Articles of Incorporation</h2><br /><br />
     <p><b>FIRST:</b> The name of the corporation is ORCHARD BEACH COMMUNITY GROUP.</p>
@@ -21,7 +21,7 @@ const Articles = () => (
 ‍
 <p><b>SEVENTH:</b> The address of the initial registered office of the corporation is...” Filed with the Secretary of State – August 27, 1974</p>
     </div>
-    </div>
+    </container>
   </>
 );
 

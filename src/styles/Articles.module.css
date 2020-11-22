@@ -6,13 +6,13 @@
 }
 
 .content {
-    background-color: rgba(255, 255, 255, 0.749);
+    background-color: rgba(142, 174, 244, 0.228);
     box-shadow: 2px 2px 8px rgb(60, 60, 60);
     margin-right: 100px;
     padding: 15px;
 }
 
-.bgroundwrap {
+.bgcontainer {
     display: absolute;
     top: 0;
     left: 0;
