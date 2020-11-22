@@ -3,6 +3,7 @@ import styles from '../styles/Articles.module.css'
 
 const Articles = () => (
   <>
+    <div className={styles.bgroundwrap}>
     <div className={styles.content}>
     <h2 className='text-center'>Articles of Incorporation</h2><br /><br />
     <p><b>FIRST:</b> The name of the corporation is ORCHARD BEACH COMMUNITY GROUP.</p>
@@ -19,6 +20,7 @@ const Articles = () => (
 <p><b>SIXTH:</b> In the event of dissolution, the assets of the corporation shall be distributed only to a recipient or recipients, to be selected by the Board of Directors, that would qualify for exemption as an organization described in Section 501(c) (3) of the Internal Revenue Code of 1954, as amended, or a successor statute.</p>
 ‍
 <p><b>SEVENTH:</b> The address of the initial registered office of the corporation is...” Filed with the Secretary of State – August 27, 1974</p>
+    </div>
     </div>
   </>
 );
