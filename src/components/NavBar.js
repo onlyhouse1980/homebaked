@@ -40,12 +40,12 @@ class Layout extends React.Component {
             <MDBNavbarNav right>
               <MDBNavItem>
                 <Link href='/'>
-                  <a className='nav-link'>Home</a>
+                  <a className='nav-link' onClick={this.toggleCollapse}>Home</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/about'>
-                  <a className='nav-link'>About</a>
+                  <a className='nav-link' onClick={this.toggleCollapse} >About</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
@@ -74,17 +74,17 @@ class Layout extends React.Component {
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/register'>
-                  <a className='nav-link'>Check Usage</a>
+                  <a className='nav-link' onClick={this.toggleCollapse} >Check Usage</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/Efficiency'>
-                  <a className='nav-link'>Use Efficiency</a>
+                  <a className='nav-link' onClick={this.toggleCollapse} >Use Efficiency</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/executive'>
-                  <a className='nav-link'>Executive Board</a>
+                  <a className='nav-link' onClick={this.toggleCollapse} >Executive Board</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
@@ -94,7 +94,7 @@ class Layout extends React.Component {
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/'>
-                  <a className='nav-link'>Contact</a>
+                  <a className='nav-link' onClick={this.toggleCollapse} >Contact</a>
                 </Link>
               </MDBNavItem>
             </MDBNavbarNav>
