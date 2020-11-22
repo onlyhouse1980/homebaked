@@ -4,3 +4,9 @@
     left: 0;
     width: 100vw;
 }
+
+.content {
+    background-color: rgba(255, 255, 255, 0.749);
+    box-shadow: 2px 2px 8px rgb(60, 60, 60);
+    padding: 15px;
+}

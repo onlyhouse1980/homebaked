@@ -3,7 +3,7 @@ import styles from '../styles/Articles.module.css'
 
 const Articles = () => (
   <>
-    <div className={styles.textbox}>
+    <div className={styles.content}>
     <h2 className='text-center'>Articles of Incorporation</h2><br /><br />
     <p><b>FIRST:</b> The name of the corporation is ORCHARD BEACH COMMUNITY GROUP.</p>
 ‍
