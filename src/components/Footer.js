@@ -8,9 +8,8 @@ const FooterPage = () => {
       className='font-small py-3 mt-4 footer-copyright text-center'
     >
       <MDBContainer fluid>
-        &copy; {new Date().getFullYear()} Copyright:
-        <a href='https://www.mdbootstrap.com'> MDBootstrap.com </a>
-        <MDBIcon fab icon='mdb' />
+        &copy; {new Date().getFullYear()} Powered by:
+        <a href='http://anewshade.de'> aNewShade.de</a>
       </MDBContainer>
     </MDBFooter>
   );
