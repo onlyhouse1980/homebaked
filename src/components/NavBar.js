@@ -88,7 +88,7 @@ class Layout extends React.Component {
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href='/SysPlan.pdf'>
+                <Link href='http://obcg.org/web/viewer.html?file=../assets/sysplan.pdf'>
                   <a className='nav-link'>System Plan</a>
                 </Link>
               </MDBNavItem>
