@@ -60,12 +60,12 @@ class Layout extends React.Component {
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
-                      <Link href='/Proposed.pdf'>
+                      <Link href='http://obcg.org/web/viewer.html?file=../assets/Proposed_OBCG_BYLAWS_July10_2020-4.pdf'>
                         <a onClick={this.toggleCollapse}>Proposed Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
-                      <Link href='/Bylaws.pdf'>
+                      <Link href='http://obcg.org/web/viewer.html?file=../assets/ORBC_Existing_By_Laws.pdf'>
                         <a onClick={this.toggleCollapse}>Current Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
@@ -78,7 +78,7 @@ class Layout extends React.Component {
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href='/Efficiency.pdf'>
+                <Link href='http://obcg.org/web/viewer.html?file=../assets/Water_Use_Efficiency.pdf'>
                   <a className='nav-link' onClick={this.toggleCollapse} >Use Efficiency</a>
                 </Link>
               </MDBNavItem>
