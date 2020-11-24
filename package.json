@@ -11,6 +11,7 @@
   "repository": "https://github.com/JakubChm/nextjs-mdbreact.git",
   "license": "MIT",
   "dependencies": {
+    "@zeit/next-source-maps": "^0.0.3",
     "express": "^4.17.1",
     "mdbreact": "^4.25.5",
     "next": "^9.3.4",

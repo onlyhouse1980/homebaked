@@ -56,17 +56,17 @@ class Layout extends React.Component {
                   <MDBDropdownMenu>
                     <MDBDropdownItem>
                       <Link href='/articles'>
-                        <a>Articles of Incorporation</a>
+                        <a onClick={this.toggleCollapse}>Articles of Incorporation</a>
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
                       <Link href='/proposed'>
-                        <a>Proposed Bylaws</a>
+                        <a onClick={this.toggleCollapse}>Proposed Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
                       <Link href='/current'>
-                        <a>Current Bylaws</a>
+                        <a onClick={this.toggleCollapse}>Current Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
                   </MDBDropdownMenu>
