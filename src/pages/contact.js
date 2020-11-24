@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ImageComponent from "../components/ImageComponent";
+import imageComponent from "../components/imageComponent";
 import VideoBg1 from '../components/VideoBg1';
 import styles from '../styles/contact.module.css'
 

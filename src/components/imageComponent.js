@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/ImageComponent.module.css";
+import styles from "../styles/imageComponent.module.css";
 
 export default class ImageComponent extends React.Component {
   state = { isOpen: false };
