@@ -78,7 +78,7 @@ class Layout extends React.Component {
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href='/Efficiency'>
+                <Link href='/Efficiency.pdf'>
                   <a className='nav-link' onClick={this.toggleCollapse} >Use Efficiency</a>
                 </Link>
               </MDBNavItem>
