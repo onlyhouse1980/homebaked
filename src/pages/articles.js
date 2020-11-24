@@ -1,8 +1,10 @@
 import ReactImage from '../assets/mdb-react-small.png';
 import styles from '../styles/Articles.module.css'
+import VideoBg1 from '../components/VideoBg1'
 
 const Articles = () => (
   <>
+    <VideoBg1 /> 
     <container className={styles.bgcontainer}>
     <div className={styles.content}>
     <h2 className='text-center'>Articles of Incorporation</h2><br /><br />
