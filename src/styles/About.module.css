@@ -3,3 +3,7 @@
     box-shadow: 2px 2px 8px rgb(60, 60, 60);
     padding: 10px;
 }
+
+.content img {
+    width: 100%!important;
+}
