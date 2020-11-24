@@ -60,7 +60,7 @@ class Layout extends React.Component {
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
-                      <Link href='http://obcg.org/web/viewer.html?file=../assets/Proposed_OBCG_BYLAWS_July10_2020-4.pdf'>
+                      <Link target='_blank' href='http://obcg.org/web/viewer.html?file=../assets/Proposed_OBCG_BYLAWS_July10_2020-4.pdf'>
                         <a onClick={this.toggleCollapse}>Proposed Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
@@ -93,7 +93,7 @@ class Layout extends React.Component {
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href='/'>
+                <Link href='/contact'>
                   <a className='nav-link' onClick={this.toggleCollapse} >Contact</a>
                 </Link>
               </MDBNavItem>
