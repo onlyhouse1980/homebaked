@@ -60,12 +60,12 @@ class Layout extends React.Component {
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
-                      <Link href='/proposed'>
+                      <Link href='/Proposed.pdf'>
                         <a onClick={this.toggleCollapse}>Proposed Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
-                      <Link href='/current'>
+                      <Link href='/Bylaws.pdf'>
                         <a onClick={this.toggleCollapse}>Current Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
@@ -88,7 +88,7 @@ class Layout extends React.Component {
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href='/'>
+                <Link href='/SysPlan.pdf'>
                   <a className='nav-link'>System Plan</a>
                 </Link>
               </MDBNavItem>
