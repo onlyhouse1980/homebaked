@@ -24,7 +24,7 @@
 }
 
 .content {
-    background-color: rgba(255, 255, 255, 0.749);
+    background-color: rgba(255, 255, 255, 0.649);
     box-shadow: 2px 2px 8px rgb(60, 60, 60);
     margin-left: 20px;
     margin-top: 20px;
@@ -32,4 +32,5 @@
 
 .content p {
     padding-left: 20px;
+    background-color: white;
 }
