@@ -17,7 +17,7 @@ const Example = () => (
         <MDBCard>
           <MDBCardImage
             className='img-fluid'
-            src='https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg'
+            src='/images/imgmeter1.jpg'
             waves
           />
           <MDBCardBody>
