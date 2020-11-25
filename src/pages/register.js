@@ -7,11 +7,13 @@ import {
   MDBCol,
   MDBRow
 } from 'mdbreact';
+import Link from 'next/link';
 
 const Example = () => (
   <React.Fragment>
     <MDBRow className='mt-5'>
       <MDBCol md='6' className='mx-auto'>
+      <Link href="/howtoreadmeter.pdf">How to read your meter?</Link>
         <MDBCard>
           <MDBCardImage
             className='img-fluid'
