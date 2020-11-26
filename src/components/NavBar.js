@@ -60,12 +60,12 @@ class Layout extends React.Component {
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
-                      <Link target='_blank' href='http://obcg.org/web/viewer.html?file=../assets/Proposed_OBCG_BYLAWS_July10_2020-4.pdf'>
+                      <Link target='_blank' href='/Proposed.pdf'>
                         <a onClick={this.toggleCollapse}>Proposed Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
-                      <Link href='http://obcg.org/web/viewer.html?file=../assets/ORBC_Existing_By_Laws.pdf'>
+                      <Link href='/ByLaws.pdf'>
                         <a onClick={this.toggleCollapse}>Current Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
@@ -78,18 +78,13 @@ class Layout extends React.Component {
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href='http://obcg.org/web/viewer.html?file=../assets/Water_Use_Efficiency.pdf'>
+                <Link href='/Efficiency.pdf'>
                   <a className='nav-link' onClick={this.toggleCollapse} >Use Efficiency</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
                 <Link href='/executive'>
                   <a className='nav-link' onClick={this.toggleCollapse} >Executive Board</a>
-                </Link>
-              </MDBNavItem>
-              <MDBNavItem>
-                <Link href='http://obcg.org/web/viewer.html?file=../assets/sysplan.pdf'>
-                  <a className='nav-link'>System Plan</a>
                 </Link>
               </MDBNavItem>
               <MDBNavItem>
