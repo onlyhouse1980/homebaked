@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
 import useSWR from 'swr'
+import UsageStepper from '../../components/UsageStepper'
 
 const fetcher = async (url) => {
   const res = await fetch(url)
@@ -25,16 +26,17 @@ export default function Person() {
     <table>
       <thead>
         <tr>
-          <th>id</th>
-          <th>Last</th>
+          <th>Meter Serial #</th>
+          <th>Reading on Oct 7, 2020</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>{data.id}</td>
-          <td>{data.Last}</td>
+          <td>{data.Oct0720}</td>
         </tr>
       </tbody>
+      <UsageStepper />
     </table>
   )
 }
