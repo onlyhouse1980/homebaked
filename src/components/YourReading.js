@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBInput } from "mdbreact";
 
-const InputPage = () => {
+const YourReading = () => {
   return (
     <MDBInput label="Your Reading" />
   );
