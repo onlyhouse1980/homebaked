@@ -36,7 +36,7 @@ render() {
   return (
     <MDBContainer>
       <h2 className="text-center font-weight-bold pt-4 pb-5 mb-2"><strong>Check Your Water Usage</strong></h2>
-      <p>(requires reading your meter. Learn how, <a href='#' target="_blank"> Here</a>)</p><br />
+      <p>(requires reading your meter.) Learn how to, <a href='#' target="_blank"> Here</a></p><br />
       <MDBStepper icon>
         <MDBStep far icon="folder-open" stepName="Basic Information" onClick={this.swapFormActive(1)(1)}></MDBStep>
         <MDBStep icon="check" stepName="Finish" onClick={this.swapFormActive(1)(2)}></MDBStep>
@@ -55,7 +55,7 @@ render() {
 
           {this.state.formActivePanel1 == 2 &&
           (<MDBCol md="12">
-            <h3 className="font-weight-bold pl-0 my-4"><strong>Personal Data</strong></h3>
+            <h3 className="font-weight-bold pl-0 my-4"><strong>Your Current Usage</strong></h3>
             <MDBInput label="First Name" className="mt-3" autoFocus={this.calculateAutofocus(1)} />
             <MDBInput label="Second Name" className="mt-3" />
             <MDBInput label="Surname" className="mt-3" />
