@@ -73,7 +73,7 @@ class Layout extends React.Component {
                 </MDBDropdown>
               </MDBNavItem>
               <MDBNavItem>
-                <Link href='/person/register'>
+                <Link href='/register'>
                   <a className='nav-link' onClick={this.toggleCollapse} >Check Usage</a>
                 </Link>
               </MDBNavItem>
