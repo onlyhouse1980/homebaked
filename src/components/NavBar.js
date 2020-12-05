@@ -65,7 +65,7 @@ class Layout extends React.Component {
                       </Link>
                     </MDBDropdownItem>
                     <MDBDropdownItem>
-                      <Link href='/ByLaws.pdf'>
+                    <Link target='_blank' href='/ByLaws.pdf'>
                         <a onClick={this.toggleCollapse}>Current Bylaws</a>
                       </Link>
                     </MDBDropdownItem>
