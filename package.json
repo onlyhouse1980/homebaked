@@ -12,16 +12,23 @@
   "license": "MIT",
   "dependencies": {
     "@zeit/next-source-maps": "^0.0.3",
+    "apollo-server-micro": "^2.19.0",
+    "axios": "^0.21.0",
+    "core-js": "^3.8.1",
     "express": "^4.17.1",
+    "fsevents": "^2.2.1",
     "graphicsmagick": "^0.0.1",
-    "mdbreact": "^4.25.5",
-    "next": "^9.3.4",
+    "graphql": "^15.4.0",
+    "mdbreact": "^4.6.1",
+    "next": "^10.0.3",
     "next-compose-plugins": "^2.2.0",
     "next-fonts": "^1.0.3",
     "next-images": "^1.4.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-image-video-lightbox": "^2.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-image-video-lightbox": "^1.0.0",
+    "swr": "^0.3.9",
+    "tailwind": "^4.0.0",
     "webpack": "^5.6.0"
   }
 }
