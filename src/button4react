@@ -1,0 +1,12 @@
+<input type="submit" onclick="output();">
+<p id="result"> </p>
+
+<script type="text/javascript" language="javascript" charset="utf-8">
+
+function output(){
+    var value1 = document.getElementById('value1').value;
+var value2 = document.getElementById('value2').value;
+    document.getElementById('result').innerHTML = parseInt(value1) + parseInt(value2);
+}
+
+</script>

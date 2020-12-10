@@ -4,7 +4,7 @@
   "description": "Integration example for MDBReact and Next.js create-next-app",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "author": "Jakub Chmura",
@@ -15,7 +15,7 @@
     "express": "^4.17.1",
     "graphicsmagick": "^0.0.1",
     "mdbreact": "^4.25.5",
-    "next": "^9.3.4",
+    "next": "^10.0.3",
     "next-compose-plugins": "^2.2.0",
     "next-fonts": "^1.0.3",
     "next-images": "^1.4.0",
