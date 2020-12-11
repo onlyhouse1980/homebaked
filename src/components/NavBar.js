@@ -12,7 +12,6 @@ import {
   MDBDropdownMenu,
   MDBDropdownItem
 } from 'mdbreact';
-import React, { Component } from 'react';
 
 class Layout extends React.Component {
   constructor(props) {
