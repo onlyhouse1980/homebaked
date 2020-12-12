@@ -25,23 +25,21 @@ export default function Person() {
     <table>
       <thead>
         <tr>
-          <th>Serial Number</th>
-          <th></th>
+          <th>meter_serialNum</th>
           <th>Jun 10th</th>
           <th>August 10th</th>
           <th>October 7th</th>
-          <th><input></input></th>
+          <th>Current</th>
           <th>Used</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>{data.meter_serialNum}</td>
           <td></td>
           <td>{data.june10_2020}</td>
           <td>{data.aug10_2020}</td>
           <td>{data.oct07_2020}</td>
-          <td input></td>
+          <td><input></input></td>
           <td></td>
         </tr>
       </tbody>
