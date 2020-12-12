@@ -1,7 +1,7 @@
-export const people = [
+[
 {
   meterserial: '13391844',
-  name: 'Main Well',
+  lastName: 'Main Well',
   oct11_2019: '19050483',
   dec03_2019: '19131736',
   jan03_2020: '19177586',
@@ -12,7 +12,7 @@ export const people = [
 },
 {
   meterserial: '14310221',
-  name: 'Auxillary Well',
+  lastName: 'Auxillary Well',
   oct11_2019: '194160',
   dec03_2019: '194160',
   jan03_2020: '194160',
@@ -23,7 +23,7 @@ export const people = [
 },
 {
   meterserial: '22667344',
-  name: 'Erickson',
+  lastName: 'Erickson',
   oct11_2019: '302322',
   dec03_2019: '307280',
   jan03_2020: '310593',
@@ -34,7 +34,7 @@ export const people = [
 },
 {
   meterserial: '22667347',
-  name: 'Emtman',
+  lastName: 'Emtman',
   oct11_2019: '67806',
   dec03_2019: '68578',
   jan03_2020: '69368',
@@ -45,7 +45,7 @@ export const people = [
 },
 {
   meterserial: '22667342',
-  name: 'Frett',
+  lastName: 'Frett',
   oct11_2019: '60572',
   dec03_2019: '60960',
   jan03_2020: '61125',
@@ -56,7 +56,7 @@ export const people = [
 },
 {
   meterserial: '22667346',
-  name: 'Lu',
+  lastName: 'Lu',
   oct11_2019: '29660',
   dec03_2019: '29852',
   jan03_2020: '30280',
@@ -67,7 +67,7 @@ export const people = [
 },
 {
   meterserial: '22667345',
-  name: 'Eide',
+  lastName: 'Eide',
   oct11_2019: '299482',
   dec03_2019: '300891',
   jan03_2020: '302002',
@@ -78,7 +78,7 @@ export const people = [
 },
 {
   meterserial: '22667376',
-  name: 'Sheffer',
+  lastName: 'Sheffer',
   oct11_2019: '3',
   dec03_2019: '3',
   jan03_2020: '3',
@@ -89,7 +89,7 @@ export const people = [
 },
 {
   meterserial: '72845054',
-  name: 'Campbell/Aust',
+  lastName: 'Campbell/Aust',
   oct11_2019: '64675',
   dec03_2019: '65677',
   jan03_2020: '65759',
@@ -100,7 +100,7 @@ export const people = [
 },
 {
   meterserial: '22667375',
-  name: 'Mullins',
+  lastName: 'Mullins',
   oct11_2019: '113110',
   dec03_2019: '113316',
   jan03_2020: '113783',
@@ -111,7 +111,7 @@ export const people = [
 },
 {
   meterserial: '22667339',
-  name: 'Wahl',
+  lastName: 'Wahl',
   oct11_2019: '134012',
   dec03_2019: '134915',
   jan03_2020: '135542',
@@ -122,7 +122,7 @@ export const people = [
 },
 {
   meterserial: '199048',
-  name: 'Kane',
+  lastName: 'Kane',
   oct11_2019: '35994',
   dec03_2019: '37947',
   jan03_2020: '39158',
@@ -133,7 +133,7 @@ export const people = [
 },
 {
   meterserial: '10656114',
-  name: 'Ewart R.',
+  lastName: 'Ewart R.',
   oct11_2019: '324289',
   dec03_2019: '331732',
   jan03_2020: '333839',
@@ -144,7 +144,7 @@ export const people = [
 },
 {
   meterserial: '22667338',
-  name: 'Turner',
+  lastName: 'Turner',
   oct11_2019: '104288',
   dec03_2019: '104976',
   jan03_2020: '105305',
@@ -155,7 +155,7 @@ export const people = [
 },
 {
   meterserial: '77445947',
-  name: 'Turner',
+  lastName: 'Turner',
   oct11_2019: '119265',
   dec03_2019: '119604',
   jan03_2020: '119615',
@@ -166,7 +166,7 @@ export const people = [
 },
 {
   meterserial: '22667340',
-  name: 'Wardle',
+  lastName: 'Wardle',
   oct11_2019: '36127',
   dec03_2019: '36222',
   jan03_2020: '36241',
@@ -177,7 +177,7 @@ export const people = [
 },
 {
   meterserial: '10656201',
-  name: 'Olson',
+  lastName: 'Olson',
   oct11_2019: '12420',
   dec03_2019: '18736',
   jan03_2020: '27058',
@@ -188,7 +188,7 @@ export const people = [
 },
 {
   meterserial: '77599785',
-  name: 'Cressey',
+  lastName: 'Cressey',
   oct11_2019: '0',
   dec03_2019: '0',
   jan03_2020: '0',
@@ -199,7 +199,7 @@ export const people = [
 },
 {
   meterserial: '22667372',
-  name: 'Carlton',
+  lastName: 'Carlton',
   oct11_2019: '84823',
   dec03_2019: '85145',
   jan03_2020: '85674',
@@ -210,7 +210,7 @@ export const people = [
 },
 {
   meterserial: '22667341',
-  name: 'Petrie',
+  lastName: 'Petrie',
   oct11_2019: '78996',
   dec03_2019: '79174',
   jan03_2020: '79174',
@@ -221,7 +221,7 @@ export const people = [
 },
 {
   meterserial: '22667353',
-  name: 'Hallman',
+  lastName: 'Hallman',
   oct11_2019: '64699',
   dec03_2019: '64764',
   jan03_2020: '64801',
@@ -232,7 +232,7 @@ export const people = [
 },
 {
   meterserial: '22667348',
-  name: 'Zamzow',
+  lastName: 'Zamzow',
   oct11_2019: '65237',
   dec03_2019: '71957',
   jan03_2020: '72871',
@@ -243,7 +243,7 @@ export const people = [
 },
 {
   meterserial: '22667349',
-  name: 'Benitez',
+  lastName: 'Benitez',
   oct11_2019: '410730',
   dec03_2019: '415748',
   jan03_2020: '418716',
@@ -254,7 +254,7 @@ export const people = [
 },
 {
   meterserial: '22667352',
-  name: 'Hawkins',
+  lastName: 'Hawkins',
   oct11_2019: '719',
   dec03_2019: '719',
   jan03_2020: '719',
@@ -265,7 +265,7 @@ export const people = [
 },
 {
   meterserial: '10886593',
-  name: 'Brockhaus',
+  lastName: 'Brockhaus',
   oct11_2019: '45344',
   dec03_2019: '49741',
   jan03_2020: '50959',
@@ -276,7 +276,7 @@ export const people = [
 },
 {
   meterserial: '22667337',
-  name: 'Frandle',
+  lastName: 'Frandle',
   oct11_2019: '62478',
   dec03_2019: '64131',
   jan03_2020: '66144',
@@ -287,7 +287,7 @@ export const people = [
 },
 {
   meterserial: '22329342',
-  name: 'Czeck/Cappuccino',
+  lastName: 'Czeck/Cappuccino',
   oct11_2019: '32',
   dec03_2019: '32',
   jan03_2020: '32',
@@ -298,7 +298,7 @@ export const people = [
 },
 {
   meterserial: '22667374',
-  name: 'Ewart N',
+  lastName: 'Ewart N',
   oct11_2019: '241191',
   dec03_2019: '248277',
   jan03_2020: '252391',
@@ -309,7 +309,7 @@ export const people = [
 },
 {
   meterserial: '77445948',
-  name: 'Loder/Green',
+  lastName: 'Loder/Green',
   oct11_2019: '5',
   dec03_2019: '5',
   jan03_2020: '5',
@@ -320,7 +320,7 @@ export const people = [
 },
 {
   meterserial: '22667377',
-  name: 'Loder/Green',
+  lastName: 'Loder/Green',
   oct11_2019: '49283',
   dec03_2019: '50167',
   jan03_2020: '50217',
@@ -331,7 +331,7 @@ export const people = [
 },
 {
   meterserial: '22667336',
-  name: 'Phelps',
+  lastName: 'Phelps',
   oct11_2019: '57332',
   dec03_2019: '59869',
   jan03_2020: '61076',
@@ -342,7 +342,7 @@ export const people = [
 },
 {
   meterserial: '22667350',
-  name: 'Ducolon',
+  lastName: 'Ducolon',
   oct11_2019: '85392',
   dec03_2019: '85392',
   jan03_2020: '85392',
@@ -353,7 +353,7 @@ export const people = [
 },
 {
   meterserial: '22667351',
-  name: 'Poppell',
+  lastName: 'Poppell',
   oct11_2019: '30334',
   dec03_2019: '30334',
   jan03_2020: '30334',
@@ -364,7 +364,7 @@ export const people = [
 },
 {
   meterserial: '10656199',
-  name: 'Campbell/Aust',
+  lastName: 'Campbell/Aust',
   oct11_2019: '300',
   dec03_2019: '313',
   jan03_2020: '313',
@@ -375,7 +375,7 @@ export const people = [
 },
 {
   meterserial: '187535',
-  name: 'Sipe',
+  lastName: 'Sipe',
   oct11_2019: '88342',
   dec03_2019: '97032',
   jan03_2020: '101432',
@@ -386,7 +386,7 @@ export const people = [
 },
 {
   meterserial: '187593',
-  name: 'Casey',
+  lastName: 'Casey',
   oct11_2019: '100468',
   dec03_2019: '107670',
   jan03_2020: '111703',
@@ -397,7 +397,7 @@ export const people = [
 },
 {
   meterserial: '22667343',
-  name: 'McKenney',
+  lastName: 'McKenney',
   oct11_2019: '215430',
   dec03_2019: '218357',
   jan03_2020: '219381',
@@ -408,7 +408,7 @@ export const people = [
 },
 {
   meterserial: '22169410',
-  name: 'Zamzow',
+  lastName: 'Zamzow',
   oct11_2019: '3',
   dec03_2019: '3',
   jan03_2020: '3',
