@@ -37,12 +37,12 @@ export default function Person() {
       <tbody>
         <tr>
           <td>{data.meter_serialNum}</td>
-          <td input>""</td>
+          <td></td>
           <td>{data.june10_2020}</td>
           <td>{data.aug10_2020}</td>
           <td>{data.oct07_2020}</td>
-          <td input>""</td>
-          <td input>""</td>
+          <td input></td>
+          <td></td>
         </tr>
       </tbody>
     </table>
