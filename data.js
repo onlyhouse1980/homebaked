@@ -1,6 +1,6 @@
-[
+export const people = [
 {
-  meterserial: '13391844',
+  meter_serialNum: '13391844',
   lastName: 'Main Well',
   oct11_2019: '19050483',
   dec03_2019: '19131736',
@@ -11,7 +11,7 @@
   oct07_2020: '19804854'
 },
 {
-  meterserial: '14310221',
+  meter_serialNum: '14310221',
   lastName: 'Auxillary Well',
   oct11_2019: '194160',
   dec03_2019: '194160',
@@ -22,7 +22,7 @@
   oct07_2020: '194238'
 },
 {
-  meterserial: '22667344',
+  meter_serialNum: '22667344',
   lastName: 'Erickson',
   oct11_2019: '302322',
   dec03_2019: '307280',
@@ -33,7 +33,7 @@
   oct07_2020: '346105'
 },
 {
-  meterserial: '22667347',
+  meter_serialNum: '22667347',
   lastName: 'Emtman',
   oct11_2019: '67806',
   dec03_2019: '68578',
@@ -44,7 +44,7 @@
   oct07_2020: '80130'
 },
 {
-  meterserial: '22667342',
+  meter_serialNum: '22667342',
   lastName: 'Frett',
   oct11_2019: '60572',
   dec03_2019: '60960',
@@ -55,7 +55,7 @@
   oct07_2020: '68410'
 },
 {
-  meterserial: '22667346',
+  meter_serialNum: '22667346',
   lastName: 'Lu',
   oct11_2019: '29660',
   dec03_2019: '29852',
@@ -66,7 +66,7 @@
   oct07_2020: '39633'
 },
 {
-  meterserial: '22667345',
+  meter_serialNum: '22667345',
   lastName: 'Eide',
   oct11_2019: '299482',
   dec03_2019: '300891',
@@ -77,7 +77,7 @@
   oct07_2020: '319459'
 },
 {
-  meterserial: '22667376',
+  meter_serialNum: '22667376',
   lastName: 'Sheffer',
   oct11_2019: '3',
   dec03_2019: '3',
@@ -88,7 +88,7 @@
   oct07_2020: '3'
 },
 {
-  meterserial: '72845054',
+  meter_serialNum: '72845054',
   lastName: 'Campbell/Aust',
   oct11_2019: '64675',
   dec03_2019: '65677',
@@ -99,7 +99,7 @@
   oct07_2020: '88054'
 },
 {
-  meterserial: '22667375',
+  meter_serialNum: '22667375',
   lastName: 'Mullins',
   oct11_2019: '113110',
   dec03_2019: '113316',
@@ -110,7 +110,7 @@
   oct07_2020: '136262'
 },
 {
-  meterserial: '22667339',
+  meter_serialNum: '22667339',
   lastName: 'Wahl',
   oct11_2019: '134012',
   dec03_2019: '134915',
@@ -121,7 +121,7 @@
   oct07_2020: '141357'
 },
 {
-  meterserial: '199048',
+  meter_serialNum: '199048',
   lastName: 'Kane',
   oct11_2019: '35994',
   dec03_2019: '37947',
@@ -132,7 +132,7 @@
   oct07_2020: '50871'
 },
 {
-  meterserial: '10656114',
+  meter_serialNum: '10656114',
   lastName: 'Ewart R.',
   oct11_2019: '324289',
   dec03_2019: '331732',
@@ -143,7 +143,7 @@
   oct07_2020: '368582'
 },
 {
-  meterserial: '22667338',
+  meter_serialNum: '22667338',
   lastName: 'Turner',
   oct11_2019: '104288',
   dec03_2019: '104976',
@@ -154,7 +154,7 @@
   oct07_2020: '153438'
 },
 {
-  meterserial: '77445947',
+  meter_serialNum: '77445947',
   lastName: 'Turner',
   oct11_2019: '119265',
   dec03_2019: '119604',
@@ -165,7 +165,7 @@
   oct07_2020: '251184'
 },
 {
-  meterserial: '22667340',
+  meter_serialNum: '22667340',
   lastName: 'Wardle',
   oct11_2019: '36127',
   dec03_2019: '36222',
@@ -176,7 +176,7 @@
   oct07_2020: '38266'
 },
 {
-  meterserial: '10656201',
+  meter_serialNum: '10656201',
   lastName: 'Olson',
   oct11_2019: '12420',
   dec03_2019: '18736',
@@ -187,7 +187,7 @@
   oct07_2020: '70603'
 },
 {
-  meterserial: '77599785',
+  meter_serialNum: '77599785',
   lastName: 'Cressey',
   oct11_2019: '0',
   dec03_2019: '0',
@@ -198,7 +198,7 @@
   oct07_2020: '0'
 },
 {
-  meterserial: '22667372',
+  meter_serialNum: '22667372',
   lastName: 'Carlton',
   oct11_2019: '84823',
   dec03_2019: '85145',
@@ -209,7 +209,7 @@
   oct07_2020: '110886'
 },
 {
-  meterserial: '22667341',
+  meter_serialNum: '22667341',
   lastName: 'Petrie',
   oct11_2019: '78996',
   dec03_2019: '79174',
@@ -220,7 +220,7 @@
   oct07_2020: '86888'
 },
 {
-  meterserial: '22667353',
+  meter_serialNum: '22667353',
   lastName: 'Hallman',
   oct11_2019: '64699',
   dec03_2019: '64764',
@@ -231,7 +231,7 @@
   oct07_2020: '67370'
 },
 {
-  meterserial: '22667348',
+  meter_serialNum: '22667348',
   lastName: 'Zamzow',
   oct11_2019: '65237',
   dec03_2019: '71957',
@@ -242,7 +242,7 @@
   oct07_2020: '88908'
 },
 {
-  meterserial: '22667349',
+  meter_serialNum: '22667349',
   lastName: 'Benitez',
   oct11_2019: '410730',
   dec03_2019: '415748',
@@ -253,7 +253,7 @@
   oct07_2020: '446072'
 },
 {
-  meterserial: '22667352',
+  meter_serialNum: '22667352',
   lastName: 'Hawkins',
   oct11_2019: '719',
   dec03_2019: '719',
@@ -264,7 +264,7 @@
   oct07_2020: '1274'
 },
 {
-  meterserial: '10886593',
+  meter_serialNum: '10886593',
   lastName: 'Brockhaus',
   oct11_2019: '45344',
   dec03_2019: '49741',
@@ -275,7 +275,7 @@
   oct07_2020: '77776'
 },
 {
-  meterserial: '22667337',
+  meter_serialNum: '22667337',
   lastName: 'Frandle',
   oct11_2019: '62478',
   dec03_2019: '64131',
@@ -286,7 +286,7 @@
   oct07_2020: '85837'
 },
 {
-  meterserial: '22329342',
+  meter_serialNum: '22329342',
   lastName: 'Czeck/Cappuccino',
   oct11_2019: '32',
   dec03_2019: '32',
@@ -297,7 +297,7 @@
   oct07_2020: '32'
 },
 {
-  meterserial: '22667374',
+  meter_serialNum: '22667374',
   lastName: 'Ewart N',
   oct11_2019: '241191',
   dec03_2019: '248277',
@@ -308,7 +308,7 @@
   oct07_2020: '295926'
 },
 {
-  meterserial: '77445948',
+  meter_serialNum: '77445948',
   lastName: 'Loder/Green',
   oct11_2019: '5',
   dec03_2019: '5',
@@ -319,7 +319,7 @@
   oct07_2020: '5'
 },
 {
-  meterserial: '22667377',
+  meter_serialNum: '22667377',
   lastName: 'Loder/Green',
   oct11_2019: '49283',
   dec03_2019: '50167',
@@ -330,7 +330,7 @@
   oct07_2020: '58712'
 },
 {
-  meterserial: '22667336',
+  meter_serialNum: '22667336',
   lastName: 'Phelps',
   oct11_2019: '57332',
   dec03_2019: '59869',
@@ -341,7 +341,7 @@
   oct07_2020: '77054'
 },
 {
-  meterserial: '22667350',
+  meter_serialNum: '22667350',
   lastName: 'Ducolon',
   oct11_2019: '85392',
   dec03_2019: '85392',
@@ -352,7 +352,7 @@
   oct07_2020: '86420'
 },
 {
-  meterserial: '22667351',
+  meter_serialNum: '22667351',
   lastName: 'Poppell',
   oct11_2019: '30334',
   dec03_2019: '30334',
@@ -363,7 +363,7 @@
   oct07_2020: '30406'
 },
 {
-  meterserial: '10656199',
+  meter_serialNum: '10656199',
   lastName: 'Campbell/Aust',
   oct11_2019: '300',
   dec03_2019: '313',
@@ -374,7 +374,7 @@
   oct07_2020: '2777'
 },
 {
-  meterserial: '187535',
+  meter_serialNum: '187535',
   lastName: 'Sipe',
   oct11_2019: '88342',
   dec03_2019: '97032',
@@ -385,7 +385,7 @@
   oct07_2020: '132118'
 },
 {
-  meterserial: '187593',
+  meter_serialNum: '187593',
   lastName: 'Casey',
   oct11_2019: '100468',
   dec03_2019: '107670',
@@ -396,7 +396,7 @@
   oct07_2020: '143160'
 },
 {
-  meterserial: '22667343',
+  meter_serialNum: '22667343',
   lastName: 'McKenney',
   oct11_2019: '215430',
   dec03_2019: '218357',
@@ -407,7 +407,7 @@
   oct07_2020: '232892'
 },
 {
-  meterserial: '22169410',
+  meter_serialNum: '22169410',
   lastName: 'Zamzow',
   oct11_2019: '3',
   dec03_2019: '3',
