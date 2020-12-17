@@ -2,7 +2,6 @@ import { useRouter } from 'next/router'
 import useSWR from 'swr'
 import styles from '../person/[meter_serialNum].module.css'
 import Sheet from '../../components/Sheet'
-import Math from 'mathjs'
 
 const fetcher = async (url) => {
   const res = await fetch(url)
