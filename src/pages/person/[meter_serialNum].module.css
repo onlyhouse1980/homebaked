@@ -1,0 +1,22 @@
+.table {
+    background-color: gray;
+    width: -webkit-fill-available;
+}
+
+.trbg {
+    background-color: #3f51b5;
+    color: white;
+}
+
+.table, .th, .td {
+    border: 1px solid black;
+  }
+
+.th, .td {
+    padding: 15px;
+}
+
+#tdmin {
+    font-size: x-large;
+    text-align: center;
+}

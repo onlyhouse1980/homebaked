@@ -92,11 +92,6 @@ class Layout extends React.Component {
                   <a className='nav-link' onClick={this.toggleCollapse} >Contact</a>
                 </Link>
               </MDBNavItem>
-              <MDBNavItem>
-                <Link href='/sysplan.pdf'>
-                  <a className='nav-link' onClick={this.toggleCollapse} >System Plan</a>
-                </Link>
-              </MDBNavItem>
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBNavbar>

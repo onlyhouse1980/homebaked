@@ -7,26 +7,23 @@
     "build": "next build",
     "start": "next start"
   },
-  "author": "Jakub Chmura",
-  "repository": "https://github.com/JakubChm/nextjs-mdbreact.git",
+  "author": "Ryan Nyberg",
+  "repository": "https://github.com/onlyhouse1980/homebaked",
   "license": "MIT",
   "dependencies": {
     "@zeit/next-source-maps": "^0.0.3",
     "express": "^4.17.1",
     "graphicsmagick": "^0.0.1",
-    "mathjs": "^8.1.0",
     "mdbreact": "^4.25.5",
     "next": "^9.3.4",
     "next-compose-plugins": "^2.2.0",
     "next-fonts": "^1.0.3",
     "next-images": "^1.4.0",
-    "npm": "^6.14.9",
     "react": "^16.13.1",
-    "react-datasheet": "^1.4.8",
     "react-dom": "^16.13.1",
     "react-image-video-lightbox": "^2.0.2",
+    "react-spreadsheet": "^0.5.0",
     "swr": "^0.3.9",
-    "use-google-spreadsheet": "^0.4.0",
     "webpack": "^5.6.0"
   }
 }

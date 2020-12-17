@@ -1,5 +1,8 @@
 import { useRouter } from 'next/router'
 import useSWR from 'swr'
+import styles from '../person/[meter_serialNum].module.css'
+import Sheet from '../../components/Sheet'
+import Math from 'mathjs'
 
 const fetcher = async (url) => {
   const res = await fetch(url)
@@ -10,7 +13,9 @@ const fetcher = async (url) => {
   }
   return data
 }
-
+<>
+<Sheet />
+</>
 export default function Person() {
   const { query } = useRouter()
   const { data, error } = useSWR(
@@ -22,25 +27,25 @@ export default function Person() {
   if (!data) return <div>Loading...</div>
 
   return (
-    <table>
+    <table className={styles.table}>
       <thead>
         <tr>
-          <th>meter_serialNum</th>
-          <th>Jun 10th</th>
-          <th>August 10th</th>
-          <th>October 7th</th>
-          <th>Current</th>
-          <th>Used</th>
+          <th className={styles.th}>meter_serialNum</th>
+          <th className={styles.th}>Your Reading</th>
+          <th className={styles.th}>(SUBTRACT) -</th>
+          <th className={styles.th}>oct07_20</th>
+          <th className={styles.th}>=</th>
+          <th className={styles.th}>Current Usage</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td></td>
-          <td>{data.june10_2020}</td>
-          <td>{data.aug10_2020}</td>
-          <td>{data.oct07_2020}</td>
-          <td><input></input></td>
-          <td></td>
+        <tr className={styles.trbg}>
+          <td className={styles.td}>{data.meter_serialNum}</td>
+          <td className={styles.td}><input type="number" label="your reading" name="uInput"></input></td>
+          <td id="tdmin" className={styles.td}>-</td>
+          <td className={styles.td}>{data.oct07_20}</td>
+          <td className={styles.td}>=</td>
+          <td className={styles.td}>Current Usage</td>
         </tr>
       </tbody>
     </table>
